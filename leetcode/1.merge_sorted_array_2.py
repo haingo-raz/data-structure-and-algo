@@ -4,6 +4,7 @@
 # from the end of the arrays i and j, and compare the elements at these positions. We will place the larger element in nums1 at position k, 
 # and decrement the corresponding pointer i or j accordingly. We will continue doing this until we have iterated through all the elements in nums2.
 # If there are still elements left in nums1, we don't need to do anything because they are already in their correct place.
+# https://leetcode.com/problems/merge-sorted-array/?envType=study-plan-v2&envId=top-interview-150
 
 class Solution(object):
     def merge(self, nums1, m, nums2, n):
